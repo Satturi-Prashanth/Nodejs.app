@@ -1,4 +1,4 @@
-package com.example.shopping.controller;
+package com.example.shopping;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 
-    @GetMapping("/products")
-    public String getProducts() {
-        return "Welcome to the Shopping App! Here's a list of products.";
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello from Shopping App!";
     }
 }
+
