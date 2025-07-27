@@ -15,7 +15,7 @@ spec:
         app: nodejs.app
     spec:
       containers:
-      - name: node-app-container
-        image: katarnak/myapp:nodejs
+      - name: yamaha-container
+        image: katarnak/myapp:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
